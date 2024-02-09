@@ -1,10 +1,7 @@
 import { About2 } from "@/components/About";
-import About from "@/components/About";
-import Blog from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
 import { Contact2 } from "@/components/Contact";
 import { Hero2 } from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import { Projects2 } from "@/components/Projects";
 import Resume from "@/components/Resume";
 import Services from "@/components/Services";
