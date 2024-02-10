@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import NoxfolioLayout from "@/layout/MainLayout";
+import MainLayout from "@/layout/MainLayout";
 
 export const metadata = {
   title: "Contact",
@@ -7,7 +7,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <NoxfolioLayout>
+    <MainLayout>
       <PageBanner pageName={"Contact Us"} />
       {/* Contact Page Area start */}
       <section className="contact-page pt-40 pb-130 rpb-100 rel z-1">
@@ -204,7 +204,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </NoxfolioLayout>
+    </MainLayout>
   );
 };
 export default page;

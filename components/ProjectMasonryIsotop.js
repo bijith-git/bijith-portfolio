@@ -53,32 +53,32 @@ const ProjectMasonryIsotop = () => {
           className={`c-pointer ${activeBtn("branding")}`}
           onClick={handleFilterKeyChange("branding")}
         >
-          Branding
+          Mobile Apps
         </li>
         <li
           className={`c-pointer ${activeBtn("marketing")}`}
           onClick={handleFilterKeyChange("marketing")}
         >
-          Marketing
+          Web
         </li>
         <li
           className={`c-pointer ${activeBtn("development")}`}
           onClick={handleFilterKeyChange("development")}
         >
-          Development
+          Packages
         </li>
         <li
           className={`c-pointer ${activeBtn("apps")}`}
           onClick={handleFilterKeyChange("apps")}
         >
-          Mobile Apps
+          Games
         </li>
-        <li
+        {/* <li
           className={`c-pointer ${activeBtn("graphics")}`}
           onClick={handleFilterKeyChange("graphics")}
         >
           Graphics
-        </li>
+        </li> */}
       </ul>
       <div className="row project-masonry-active">
         <div className="col-xl-4 col-md-6 item branding development">

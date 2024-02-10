@@ -8,6 +8,7 @@ import Services from "@/components/Services";
 import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
 import MainLayout from "@/layout/MainLayout";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (

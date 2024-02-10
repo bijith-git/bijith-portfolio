@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import NoxfolioLayout from "@/layout/MainLayout";
+import MainLayout from "@/layout/MainLayout";
 import Link from "next/link";
 
 import dynamic from "next/dynamic";
@@ -16,7 +16,7 @@ export const metadata = {
 
 const ProjectsPage = () => {
   return (
-    <NoxfolioLayout>
+    <MainLayout>
       <PageBanner pageName={"Project Grid View"} />
       <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
@@ -42,7 +42,7 @@ const ProjectsPage = () => {
           <span />
         </div>
       </section>
-    </NoxfolioLayout>
+    </MainLayout>
   );
 };
 export default ProjectsPage;

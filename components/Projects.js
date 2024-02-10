@@ -122,7 +122,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/projects">
+          <Link legacyBehavior href="/projects-masonry">
             <a className="theme-btn">
               View More Projects <i className="far fa-angle-right" />
             </a>
@@ -288,7 +288,7 @@ export const Projects2 = () => {
           </div>
           <div className="col-md-6 align-self-center">
             <div className="project-details-btn mb-50">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/projects-masonry">
                 <a className="more-btn wow zoomIn delay-0-2s">
                   <span>More</span>
                   <i className="fal fa-arrow-up" />

@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import NoxfolioLayout from "@/layout/MainLayout";
+import MainLayout from "@/layout/MainLayout";
 import Link from "next/link";
 
 export const metadata = {
@@ -8,7 +8,7 @@ export const metadata = {
 
 const ProjectDetails = () => {
   return (
-    <NoxfolioLayout>
+    <MainLayout>
       <PageBanner pageName={"Mobile Application Design"} />
       {/* ProjectDetails Area start */}
       <section className="projects-details-area pt-40 pb-130 rpb-100 rel z-1">
@@ -249,7 +249,7 @@ const ProjectDetails = () => {
           <span />
         </div>
       </section>
-    </NoxfolioLayout>
+    </MainLayout>
   );
 };
 export default ProjectDetails;
