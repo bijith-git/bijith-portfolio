@@ -11,7 +11,7 @@ const ProjectMasonryIsotop = dynamic(
 );
 
 export const metadata = {
-  title: "My Projects",
+  title: "Bijith P N",
 };
 
 const ProjectMasonry = () => {

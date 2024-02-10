@@ -3,7 +3,7 @@ import MainLayout from "@/layout/MainLayout";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Projects Details",
+  title: "Bijith P N",
 };
 
 const ProjectDetails = () => {
