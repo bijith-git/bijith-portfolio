@@ -127,12 +127,12 @@ export const About2 = () => {
                     <b>Kerala,India</b>
                   </div>
                 </div>
-                <div className="col-xl-3 col-sm-4 col-6">
+                {/* <div className="col-xl-3 col-sm-4 col-6">
                   <div className="about-info-item wow fadeInUp delay-0-3s">
                     <small>Freelancing</small>
                     <b>Yes</b>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-xl-3 col-sm-4 col-6">
                   <div className="about-info-item wow fadeInUp delay-0-4s">
                     <small>Working at</small>
