@@ -7,7 +7,7 @@ export const metadata = {
 
 const E404 = () => {
   return (
-    <MainLayout noFooter={true}>
+    <MainLayout header={2} onePageMenu={true} noFooter={true}>
       <section className="error-area pt-185 rpt-130 pb-130 rpb-100 rel z-1 text-center">
         <div className="container">
           <div className="error-content">

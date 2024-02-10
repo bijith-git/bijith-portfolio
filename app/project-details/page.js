@@ -8,7 +8,7 @@ export const metadata = {
 
 const ProjectDetails = () => {
   return (
-    <MainLayout>
+    <MainLayout header={2} onePageMenu={true}>
       <PageBanner pageName={"Mobile Application Design"} />
       {/* ProjectDetails Area start */}
       <section className="projects-details-area pt-40 pb-130 rpb-100 rel z-1">
