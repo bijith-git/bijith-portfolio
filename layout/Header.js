@@ -117,6 +117,15 @@ const Header2 = ({ onePageMenu }) => {
 
   const [toggle, setToggle] = useState(false);
 
+  const downloadResume = () => {
+    const pdfUrl = "http://localhost:3000/BIJITH_P_N.pdf";
+    const aTag = document.createElement("a");
+    aTag.href = pdfUrl;
+    aTag.setAttribute("download", "Bijith P N Resume");
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
   return (
     <header className="main-header header-two menu-absolute">
       {/*Header-Upper*/}
@@ -172,26 +181,26 @@ const Header2 = ({ onePageMenu }) => {
                   {onePageMenu ? (
                     <ul className="navigation onepage clearfix">
                       <li>
-                        <a href="#home">Home</a>
+                        <a href="/#home">Home</a>
                       </li>
                       <li>
-                        <a href="#about">about</a>
+                        <a href="/#about">about</a>
                       </li>
                       <li>
-                        <a href="#resume">Resume</a>
+                        <a href="/#resume">Resume</a>
                       </li>
                       <li>
-                        <a href="#services">services</a>
+                        <a href="/#services">services</a>
                       </li>
                       <li>
-                        <a href="#skills">skills</a>
+                        <a href="/#skills">skills</a>
                       </li>
                       <li>
-                        <a href="#projects">projects</a>
+                        <a href="/#projects">projects</a>
                       </li>
 
                       <li>
-                        <a href="#contact">Contact</a>
+                        <a href="/#contact">Contact</a>
                       </li>
                     </ul>
                   ) : (
@@ -203,8 +212,16 @@ const Header2 = ({ onePageMenu }) => {
             </div>
             {/* Menu Button */}
             <div className="menu-btns">
-              <Link legacyBehavior href="contact">
-                <a className="theme-btn"> Download Resume</a>
+              <Link legacyBehavior href="">
+                <button
+                  onClick={() => {
+                    downloadResume();
+                  }}
+                  className="theme-btn"
+                >
+                  {" "}
+                  Download Resume
+                </button>
               </Link>
             </div>
           </div>
