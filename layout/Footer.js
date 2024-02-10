@@ -55,9 +55,14 @@ const Footer1 = () => {
                   </li>
                   <li>
                     <Link legacyBehavior href="services">
-                      Service
+                      Resume
                     </Link>
                   </li>
+                  <li>
+                    <Link legacyBehavior href="projects">
+                      Service
+                    </Link>
+                  </li>{" "}
                   <li>
                     <Link legacyBehavior href="projects">
                       Projects
@@ -105,16 +110,15 @@ const Footer1 = () => {
             <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://github.com/bijith-git">Github</a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  <a href="https://instagram.com/b_jith__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
+                    Instagram
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
-                </li>
-                <li>
-                  <a href="#">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/bijithpn/">LinkedIn</a>
                 </li>
               </ul>
             </div>

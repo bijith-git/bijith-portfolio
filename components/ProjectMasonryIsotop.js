@@ -50,38 +50,38 @@ const ProjectMasonryIsotop = () => {
           Design
         </li>
         <li
-          className={`c-pointer ${activeBtn("branding")}`}
-          onClick={handleFilterKeyChange("branding")}
+          className={`c-pointer ${activeBtn("app")}`}
+          onClick={handleFilterKeyChange("app")}
         >
-          Mobile Apps
+          Apps
         </li>
         <li
-          className={`c-pointer ${activeBtn("marketing")}`}
-          onClick={handleFilterKeyChange("marketing")}
+          className={`c-pointer ${activeBtn("web")}`}
+          onClick={handleFilterKeyChange("web")}
         >
           Web
         </li>
         <li
-          className={`c-pointer ${activeBtn("development")}`}
-          onClick={handleFilterKeyChange("development")}
+          className={`c-pointer ${activeBtn("package")}`}
+          onClick={handleFilterKeyChange("package")}
         >
           Packages
         </li>
         <li
-          className={`c-pointer ${activeBtn("apps")}`}
-          onClick={handleFilterKeyChange("apps")}
+          className={`c-pointer ${activeBtn("games")}`}
+          onClick={handleFilterKeyChange("games")}
         >
           Games
         </li>
         {/* <li
-          className={`c-pointer ${activeBtn("graphics")}`}
-          onClick={handleFilterKeyChange("graphics")}
+          className={`c-pointer ${activeBtn("")}`}
+          onClick={handleFilterKeyChange("")}
         >
           Graphics
         </li> */}
       </ul>
       <div className="row project-masonry-active">
-        <div className="col-xl-4 col-md-6 item branding development">
+        <div className="col-xl-4 col-md-6 item app">
           <div className="project-item style-three wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
@@ -95,16 +95,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Mobile App</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Wallpaper App
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design marketing graphics">
+        <div className="col-xl-4 col-md-6 item web games">
           <div className="project-item style-three wow fadeInUp delay-0-3s">
             <div className="project-image">
               <img
@@ -118,16 +118,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter Web</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Typing speed
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item branding marketing">
+        <div className="col-xl-4 col-md-6 item app web">
           <div className="project-item style-three wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
@@ -141,16 +141,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter App</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Quotes generator
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design development">
+        <div className="col-xl-4 col-md-6 item package">
           <div className="project-item style-three wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
@@ -164,16 +164,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter Package</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Animated Mouse Cursor
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item marketing apps design">
+        <div className="col-xl-4 col-md-6 item games">
           <div className="project-item style-three wow fadeInUp delay-0-3s">
             <div className="project-image">
               <img
@@ -187,16 +187,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Game</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  2048
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design development">
+        <div className="col-xl-4 col-md-6 item package">
           <div className="project-item style-three wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
@@ -210,16 +210,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter Package</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Pageinated ListView
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item branding graphics">
+        <div className="col-xl-4 col-md-6 item app ">
           <div className="project-item style-three wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
@@ -233,16 +233,16 @@ const ProjectMasonryIsotop = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Mobile App</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Music App
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design apps graphics">
+        <div className="col-xl-4 col-md-6 item design">
           <div className="project-item style-three wow fadeInUp delay-0-3s">
             <div className="project-image">
               <img
@@ -265,7 +265,7 @@ const ProjectMasonryIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design marketing">
+        <div className="col-xl-4 col-md-6 item design web">
           <div className="project-item style-three wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img

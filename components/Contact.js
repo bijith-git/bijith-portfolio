@@ -191,17 +191,14 @@ export const Contact2 = () => {
               <div className="social-flow">
                 <h4>Follow :</h4>
                 <div className="social-style-one">
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://github.com/bijith-git">
+                    <i className="fab fa-github" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/bijithpn/">
                     <i className="fab fa-linkedin-in" />
                   </a>
-                  <a href="#">
+                  <a href="https://instagram.com/b_jith__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-discord" />
                   </a>
                 </div>
               </div>

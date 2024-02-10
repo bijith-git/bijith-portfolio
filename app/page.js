@@ -211,7 +211,9 @@ export default function Home() {
         </div>
       </div>
       <Projects2 />
-      <Clients2 />
+      {/* <Clients2 /> */}
+      <Testimonial />
+      <Contact2 />{" "}
       <div className="headline-area pt-60 bgc-black rel z-2">
         <div className="headline-wrap">
           <span className="marquee-wrap style-two pb-20">
@@ -248,8 +250,6 @@ export default function Home() {
           <span />
         </div>
       </div>
-      <Testimonial />
-      <Contact2 />
       {/* <ScrollTop /> */}
     </MainLayout>
   );
