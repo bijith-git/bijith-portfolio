@@ -171,7 +171,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two1.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="">
                   <a className="hover-box">
                     <span>View Code</span>
                     <i className="far fa-arrow-up" />
@@ -180,7 +180,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="">
                     <a>Animated Cursor</a>
                   </Link>
                 </h5>
@@ -195,7 +195,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two2.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="">
                   <a className="hover-box">
                     <span>View Code</span>
                     <i className="far fa-arrow-up" />
@@ -204,7 +204,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="">
                     <a>Spotify Clone</a>
                   </Link>
                 </h5>
@@ -219,7 +219,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two3.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="">
                   <a className="hover-box">
                     <span>View Code</span>
                     <i className="far fa-arrow-up" />
@@ -228,7 +228,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="">
                     <a>Wallpaper App</a>
                   </Link>
                 </h5>
@@ -243,7 +243,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two4.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="">
                   <a className="hover-box">
                     <span>View Code</span>
                     <i className="far fa-arrow-up" />
@@ -252,7 +252,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="">
                     <a>Note App</a>
                   </Link>
                 </h5>
@@ -269,7 +269,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two5.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="">
                   <a className="hover-box">
                     <span>View Code</span>
                     <i className="far fa-arrow-up" />
@@ -278,7 +278,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="">
                     <a>Typing Speed Test </a>
                   </Link>
                 </h5>
