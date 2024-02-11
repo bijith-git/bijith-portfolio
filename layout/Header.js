@@ -118,7 +118,8 @@ const Header2 = ({ onePageMenu }) => {
   const [toggle, setToggle] = useState(false);
 
   const downloadResume = () => {
-    const pdfUrl = "https://fastupload.io/NraMCSJpjPLJzUC/file";
+    const pdfUrl =
+      "https://raw.githubusercontent.com/bijith-git/Bijith-portfolio/master/public/BIJITH_P_N.pdf";
     const aTag = document.createElement("a");
     aTag.href = pdfUrl;
     aTag.setAttribute("download", "Bijith P N Resume");
