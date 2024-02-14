@@ -271,6 +271,18 @@ export const Contact2 = () => {
           </div>
         </div>
       </div>
+      <div className="bg-lines">
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+      </div>
     </section>
   );
 };
