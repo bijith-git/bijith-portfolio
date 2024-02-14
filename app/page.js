@@ -1,7 +1,6 @@
-import { About2 } from "@/components/About";
-import { Clients2 } from "@/components/Clients";
-import { Contact2 } from "@/components/Contact";
-import { Hero2 } from "@/components/Hero";
+import About, { About2 } from "@/components/About";
+import Contact, { Contact2 } from "@/components/Contact";
+import Hero, { Hero2 } from "@/components/Hero";
 import { Projects2 } from "@/components/Projects";
 import Resume from "@/components/Resume";
 import Services from "@/components/Services";
@@ -12,9 +11,9 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
-    <MainLayout header={2} onePageMenu={true}>
+    <MainLayout header={2} onePageMenu={true} footer={1}>
       <Hero2 />
-      <About2 />
+      <About />
       <div className="headline-area-h2 rel z-2 py-25">
         <div className="headline-wrap">
           <span className="marquee-wrap">
@@ -213,8 +212,8 @@ export default function Home() {
       <Projects2 />
       {/* <Clients2 /> */}
       <Testimonial />
-      <Contact2 />{" "}
-      <div className="headline-area pt-60 bgc-black rel z-2">
+      <Contact2 />
+      <div className="headline-area pt-60  rel z-2">
         <div className="headline-wrap">
           <span className="marquee-wrap style-two pb-20">
             <span className="marquee-inner left">

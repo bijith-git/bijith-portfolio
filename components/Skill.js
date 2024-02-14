@@ -54,7 +54,7 @@ const items = [
 const Skill = () => {
   return (
     <section id="skills" className="skill-area rel z-1">
-      <div className="for-bgc-black pt-130 rpt-100 pb-100 rpb-70">
+      <div className="pt-130 rpt-100 pb-100 rpb-70">
         <div className="container">
           <div className="row gap-100">
             <div className="col-lg-5">

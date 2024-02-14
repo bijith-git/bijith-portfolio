@@ -148,10 +148,7 @@ export default Projects;
 
 export const Projects2 = () => {
   return (
-    <section
-      id="projects"
-      className="projects-area-four pt-135 rpt-100 pb-100 rpb-70 rel z-1"
-    >
+    <section id="projects" className=" pt-135 rpt-100 pb-100 rpb-70 rel z-1">
       <div className="container container-1200">
         <div className="row justify-content-center">
           <div className="col-xl-12">

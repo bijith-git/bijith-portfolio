@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, i’m </span>
               <h1>
-                <b>Roy C. Jones</b> web designer
+                <b>Bijith P N </b>Flutter Developer
               </h1>
               <p>
                 We denounce with righteous indignation dislike demoralized by
@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/me.png" alt="Author" />
+              <img src="assets/images/hero/hero-two.png" alt="Author" />
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"
