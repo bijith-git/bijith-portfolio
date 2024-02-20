@@ -307,11 +307,14 @@ export const Projects2 = () => {
             </div>
           </div>
           <div className="col-md-6 align-self-center">
-            <div className="project-details-btn mb-50">
+            <div className="project-details-btn mb-40">
               <Link legacyBehavior href="/projects-masonry">
                 <a className="more-btn wow zoomIn delay-0-2s">
                   <span>More</span>
-                  <i className="fal fa-arrow-up" />
+                  <i
+                    className="fal fa-arrow-up"
+                    style={{ fontSize: "124px" }}
+                  />
                 </a>
               </Link>
             </div>
