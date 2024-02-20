@@ -1,5 +1,4 @@
 import { DM_Sans, Inter } from "next/font/google";
-
 import Preloader from "@/layout/Preloader";
 import "@css/animate.min.css";
 import "@css/bootstrap.min.css";

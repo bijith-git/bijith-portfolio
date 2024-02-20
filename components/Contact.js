@@ -1,3 +1,8 @@
+"use client";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   return (
     <section
@@ -160,6 +165,28 @@ const Contact = () => {
 export default Contact;
 
 export const Contact2 = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_cwuvtbb", "template_o95qv78", form.current, {
+        publicKey: "NveDa5f7oFeZGEZ0H",
+      })
+      .then(
+        () => {
+          toast.success("Thank you for reaching out to me!", {
+            position: "bottom-center",
+          });
+        },
+        (error) => {
+          toast.error("Opps!,something went wrong", {
+            position: "bottom-center",
+          });
+        }
+      );
+  };
   return (
     <section id="contact" className="contact-area py-115 rpy-100 rel z-1">
       <div className="container">
@@ -207,10 +234,12 @@ export const Contact2 = () => {
           <div className="col-lg-4">
             <div className="contact-form-two form-style-one wow fadeInUp delay-0-4s">
               <form
+                ref={form}
+                onSubmit={sendEmail}
                 id="contactForm"
                 className="contactForm"
                 name="contactForm"
-                action="assets/php/form-process.php"
+                // action="assets/php/form-process.php"
                 method="post"
               >
                 <div className="form-group">
