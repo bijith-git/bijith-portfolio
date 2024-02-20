@@ -168,20 +168,29 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two1.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="">
-                  <a className="hover-box">
-                    <span>View Code</span>
-                    <i className="far fa-arrow-up" />
-                  </a>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover-box"
+                  href="https://pub.dev/packages/animated_mouse_cursor"
+                >
+                  <span>Visit</span>
+                  <i className="far fa-arrow-up" />
                 </Link>
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="">
+                  <Link
+                    legacyBehavior
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-box"
+                    href="https://pub.dev/packages/animated_mouse_cursor"
+                  >
                     <a>Animated Cursor</a>
                   </Link>
                 </h5>
-                <span className="sub-title">Flutter package, Web</span>
+                <span className="sub-title">Flutter package, Flutter Web</span>
               </div>
             </div>
           </div>
@@ -192,20 +201,23 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two2.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="">
-                  <a className="hover-box">
-                    <span>View Code</span>
-                    <i className="far fa-arrow-up" />
-                  </a>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover-box"
+                  href="https://nightowl-cyan.vercel.app/"
+                >
+                  <span>Visit</span>
+                  <i className="far fa-arrow-up" />
                 </Link>
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="">
-                    <a>Spotify Clone</a>
+                  <Link legacyBehavior href="https://nightowl-cyan.vercel.app/">
+                    <a>NightOwl Media</a>
                   </Link>
                 </h5>
-                <span className="sub-title">Personal Project, Android</span>
+                <span className="sub-title">Next js Project</span>
               </div>
             </div>
           </div>
@@ -240,22 +252,26 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two4.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="">
-                  <a className="hover-box">
-                    <span>View Code</span>
-                    <i className="far fa-arrow-up" />
-                  </a>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sort-visualizer-c3b8d.web.app/"
+                  className="hover-box"
+                >
+                  <span>Visit</span>
+                  <i className="far fa-arrow-up" />
                 </Link>
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="">
-                    <a>Note App</a>
+                  <Link
+                    legacyBehavior
+                    href="https://sort-visualizer-c3b8d.web.app/"
+                  >
+                    <a>Sort Visualizer</a>
                   </Link>
                 </h5>
-                <span className="sub-title">
-                  Personal Project, Android, IOS
-                </span>
+                <span className="sub-title">Personal Project,Flutter Web</span>
               </div>
             </div>
           </div>
@@ -266,20 +282,27 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two5.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="">
-                  <a className="hover-box">
-                    <span>View Code</span>
-                    <i className="far fa-arrow-up" />
-                  </a>
+                <Link
+                  // legacyBehavior
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover-box"
+                  href="https://typing-speed-577bd.web.app/"
+                >
+                  <span>Visit</span>
+                  <i className="far fa-arrow-up" />
                 </Link>
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="">
+                  <Link
+                    legacyBehavior
+                    href="https://typing-speed-577bd.web.app/"
+                  >
                     <a>Typing Speed Test </a>
                   </Link>
                 </h5>
-                <span className="sub-title">Personal Project, Web</span>
+                <span className="sub-title">Personal Project, Flutter Web</span>
               </div>
             </div>
           </div>
