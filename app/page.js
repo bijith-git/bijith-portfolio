@@ -211,7 +211,7 @@ export default function Home() {
       </div>
       <Projects2 />
       {/* <Clients2 /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact2 />
       <div className="headline-area pt-60  rel z-2">
         <div className="headline-wrap">
