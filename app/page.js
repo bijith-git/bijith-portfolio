@@ -12,7 +12,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export default function Home() {
   return (
     <MainLayout header={2} onePageMenu={true} footer={1}>
-      <Hero2 />
+      <Hero />
       <About />
       <div className="headline-area-h2 rel z-2 py-25">
         <div className="headline-wrap">

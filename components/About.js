@@ -60,7 +60,7 @@ const About = () => {
                 <div className="row gap-40 justify-content-center">
                   <div className="col-lg-5 col-6 mx-5">
                     <div className="counter-item counter-text-wrap mb-25 wow fadeInUp delay-0-2s">
-                      <Counter end={5} extraClass={""} />
+                      <Counter end={8} extraClass={""} />
                       <span className="counter-title">project completed</span>
                     </div>
                   </div>
@@ -72,8 +72,8 @@ const About = () => {
                   </div>
                   <div className="col-lg-5 col-6">
                     <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
-                      <Counter end={10} extraClass={"+"} />
-                      <span className="counter-title">Satisfied customers</span>
+                      <Counter end={2} extraClass={"+"} />
+                      <span className="counter-title">Satisfied Clients</span>
                     </div>
                   </div>
                 </div>

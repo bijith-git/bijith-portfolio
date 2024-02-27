@@ -306,7 +306,7 @@ export const Projects2 = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 align-self-center">
+          {/* <div className="col-md-6 align-self-center">
             <div className="project-details-btn mb-40">
               <Link legacyBehavior href="/projects-masonry">
                 <a className="more-btn wow zoomIn delay-0-2s">
@@ -318,7 +318,7 @@ export const Projects2 = () => {
                 </a>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="bg-lines">

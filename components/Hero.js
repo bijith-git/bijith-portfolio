@@ -2,9 +2,9 @@ import Link from "next/link";
 import Counter from "./Counter";
 
 const counterData = [
-  { id: 1, text: "Years Of Experience", value: "13", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "8", valueType: "k-plus" },
-  { id: 3, text: "Client Satisfactions", value: "99", valueType: "percent" },
+  { id: 1, text: "Years Of Experience", value: "1", valueType: "plus" },
+  { id: 2, text: "Project Complete", value: "5", valueType: "plus" },
+  { id: 3, text: "Client Satisfactions", value: "2", valueType: "" },
 ];
 
 const Hero = () => {
@@ -18,21 +18,18 @@ const Hero = () => {
               <h1>
                 <b>Bijith P N </b>Flutter Developer
               </h1>
-              <p>
-                We denounce with righteous indignation dislike demoralized by
-                the charms of pleasure
-              </p>
+              <p>I have no special talents. I am only passionately curious.</p>
               <div className="hero-btns">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="#about">
                   <a className="theme-btn">
-                    Hire Me <i className="far fa-angle-right" />
+                    About Me <i className="far fa-angle-right" />
                   </a>
                 </Link>
-                <Link legacyBehavior href="/contact">
+                {/* <Link legacyBehavior href="/contact">
                   <a className="read-more">
                     Download Resume <i className="far fa-angle-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
