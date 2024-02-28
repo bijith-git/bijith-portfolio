@@ -221,7 +221,7 @@ export const Projects2 = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
@@ -244,7 +244,7 @@ export const Projects2 = () => {
                 <span className="sub-title">Personal Project, Android</span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-6">
             <div className="project-item style-four wow fadeInUp delay-0-2s">
               <div className="image">
