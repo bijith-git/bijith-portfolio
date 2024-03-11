@@ -306,19 +306,33 @@ export const Projects2 = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-6 align-self-center">
-            <div className="project-details-btn mb-40">
-              <Link legacyBehavior href="/projects-masonry">
-                <a className="more-btn wow zoomIn delay-0-2s">
-                  <span>More</span>
-                  <i
-                    className="fal fa-arrow-up"
-                    style={{ fontSize: "124px" }}
-                  />
-                </a>
-              </Link>
+          <div className="col-md-6 order-md-3">
+            <div className="project-item style-four wow fadeInUp delay-0-2s">
+              <div className="image">
+                <img
+                  src="assets/images/projects/project-two6.jpg"
+                  alt="Project"
+                />
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover-box"
+                  href="https://my2048game.web.app/"
+                >
+                  <span>Visit</span>
+                  <i className="far fa-arrow-up" />
+                </Link>
+              </div>
+              <div className="content">
+                <h5 className="title">
+                  <Link legacyBehavior href="https://my2048game.web.app/">
+                    <a>2048</a>
+                  </Link>
+                </h5>
+                <span className="sub-title">Personal Project, Flutter Web</span>
+              </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="bg-lines">

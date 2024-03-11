@@ -9,6 +9,8 @@ import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
 
+import CustomCursor from "../components/customCursor.js";
+
 /** google fonts */
 const inter = Inter({
   subsets: ["latin"],
@@ -38,6 +40,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${fontFamily} scroll-smooth`}>
       <body>
         <Preloader />
+        {/* <CustomCursor /> */}
         {children}
       </body>
     </html>
