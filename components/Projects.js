@@ -10,9 +10,9 @@ const Projects = () => {
         <div className="row justify-content-center">
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Latest Works</span>
+              <span className="sub-title mb-15">My Works</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+                Explore My <span>Projects</span>
               </h2>
             </div>
           </div>
@@ -20,22 +20,38 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/project-two1.jpg"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter package</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                <Link
+                  legacyBehavior
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover-box"
+                  href="https://pub.dev/packages/animated_mouse_cursor/"
+                >
+                  Animated Mouse Cursor
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Elevate your Flutter app's user experience with my mouse cursor
+                package. Seamlessly integrate mouse support, providing users
+                with a responsive and intuitive interface.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link
+                legacyBehavior
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-box"
+                href="https://pub.dev/packages/animated_mouse_cursor/"
+              >
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -46,22 +62,27 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/project-two2.jpg"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Next js</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                <Link legacyBehavior href="https://www.nightowlads.com/">
+                  NightOwl Media
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Embark on a modern media experience with our Next.js project
+                crafted exclusively for a cutting-edge media company. Navigate
+                seamlessly through a sleek interface that combines style and
+                functionality.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="https://www.nightowlads.com/">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -72,22 +93,33 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/project-two4.jpg"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter Project</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                <Link
+                  legacyBehavior
+                  href="https://sort-visualizer-c3b8d.web.app/"
+                >
+                  Sort Visualize
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Dive into the world of algorithms with our Flutter project for
+                sorting visualization. Witness the magic of sorting algorithms
+                come to life through an engaging and interactive visual
+                representation.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link
+                legacyBehavior
+                href="https://sort-visualizer-c3b8d.web.app/"
+              >
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -98,22 +130,54 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/project-two5.jpg"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flutter Projectt</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                <Link legacyBehavior href="https://typing-speed-577bd.web.app/">
+                  Typing Speed Test
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Elevate your typing skills with our Flutter-powered website,
+                offering an immersive experience to test and enhance your speed.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="https://typing-speed-577bd.web.app/">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="row align-items-center pb-25">
+          <div className="col-lg-6">
+            <div className="project-image wow fadeInLeft delay-0-2s">
+              <img
+                src="assets/images/projects/project-two4.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-6 ms-auto">
+            <div className="project-content wow fadeInRight delay-0-2s">
+              <span className="sub-title">Flutter Projectt</span>
+              <h2>
+                <Link legacyBehavior href="https://my2048game.web.app/">
+                  2048
+                </Link>
+              </h2>
+              <p>
+                Experience the classic puzzle game in a sleek and responsive
+                interface, designed for a captivating gaming experience.
+              </p>
+              <Link legacyBehavior href="https://my2048game.web.app/">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -121,13 +185,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/projects-masonry">
+        {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
+          <Link legacyBehavior href="">
             <a className="theme-btn">
-              View More Projects <i className="far fa-angle-right" />
+              Comming soon <i className="far fa-angle-right" />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="bg-lines">
         <span />

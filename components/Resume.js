@@ -107,11 +107,11 @@ export const Resume2 = () => {
                 <i className="flaticon-asterisk-1" />
                 MY Expereince resume
               </span>
-              <h2>work &amp; Education</h2>
+              <h2>Work &amp; Education</h2>
             </div>
           </div>
           <div className="col-lg-4 text-lg-end">
-            <Link legacyBehavior href="/contact">
+            <Link legacyBehavior href="/#contact">
               <a className="theme-btn mb-35">Contact Me</a>
             </Link>
           </div>
@@ -130,15 +130,15 @@ export const Resume2 = () => {
                   <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
-                        <i className="far fa-calendar-alt" /> 2021 - Present{" "}
+                        <i className="far fa-calendar-alt" /> 2022 - 2022
                       </span>
-                      <h5 className="title">Senior UI Designer</h5>
+                      <h5 className="title">Freelancing </h5>
                     </div>
-                    <a href="#" className="details-btn">
+                    {/* <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
-                    </a>
+                    </a> */}
                   </div>
-                  <div className="timeline-item">
+                  {/* <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
                         <i className="far fa-calendar-alt" /> 2018 - 2021{" "}
@@ -148,21 +148,21 @@ export const Resume2 = () => {
                     <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="resume-column">
                   <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
-                        <i className="far fa-calendar-alt" /> 2016 - 2018{" "}
+                        <i className="far fa-calendar-alt" /> 2022 - Present
                       </span>
-                      <h5 className="title">Junior UI Designer</h5>
+                      <h5 className="title">Flutter Developer</h5>
                     </div>
-                    <a href="#" className="details-btn">
+                    {/* <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
-                    </a>
+                    </a> */}
                   </div>
-                  <div className="timeline-item">
+                  {/* <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
                         <i className="far fa-calendar-alt" /> 2014 - 2016{" "}
@@ -172,11 +172,11 @@ export const Resume2 = () => {
                     <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="resume-line">
                   <span className="resume-dots" />
-                  <span className="resume-dots" />
+                  {/* <span className="resume-dots" /> */}
                 </div>
               </div>
             </div>
@@ -194,15 +194,19 @@ export const Resume2 = () => {
                   <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
-                        <i className="far fa-calendar-alt" /> 2021 - Present{" "}
+                        <i className="far fa-calendar-alt" /> 2016 - 2018
                       </span>
-                      <h5 className="title">Senior UI Designer</h5>
+                      <h5 style={{ fontSize: "15px" }} className="title">
+                        Higher Secondary
+                      </h5>
+                      <h7 className="subtitle">IHRD</h7>
+                      <span></span>
                     </div>
-                    <a href="#" className="details-btn">
+                    {/* <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
-                    </a>
+                    </a> */}
                   </div>
-                  <div className="timeline-item">
+                  {/* <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
                         <i className="far fa-calendar-alt" /> 2018 - 2021{" "}
@@ -212,21 +216,23 @@ export const Resume2 = () => {
                     <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="resume-column">
                   <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
-                        <i className="far fa-calendar-alt" /> 2016 - 2018{" "}
+                        <i className="far fa-calendar-alt" /> 2019 - 2022
                       </span>
-                      <h5 className="title">Junior UI Designer</h5>
+                      <h5 className="title">BCA</h5>
+                      <h7 className="subtitle">University of Calicut</h7>
+                      <span></span>
                     </div>
-                    <a href="#" className="details-btn">
+                    {/* <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
-                    </a>
+                    </a> */}
                   </div>
-                  <div className="timeline-item">
+                  {/* <div className="timeline-item">
                     <div className="resume-content">
                       <span className="duration">
                         <i className="far fa-calendar-alt" /> 2014 - 2016{" "}
@@ -236,11 +242,11 @@ export const Resume2 = () => {
                     <a href="#" className="details-btn">
                       <i className="fal fa-long-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="resume-line">
                   <span className="resume-dots" />
-                  <span className="resume-dots" />
+                  {/* <span className="resume-dots" /> */}
                 </div>
               </div>
             </div>

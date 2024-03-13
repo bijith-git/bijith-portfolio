@@ -1,8 +1,8 @@
 import About, { About2 } from "@/components/About";
 import Contact, { Contact2 } from "@/components/Contact";
 import Hero, { Hero2 } from "@/components/Hero";
-import { Projects2 } from "@/components/Projects";
-import Resume from "@/components/Resume";
+import Projects, { Projects2 } from "@/components/Projects";
+import Resume, { Resume2 } from "@/components/Resume";
 import Services from "@/components/Services";
 import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
@@ -110,7 +110,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <Resume />
+      <Resume2 />
       <Services extraClass={"serves"} />
       <Skill />
       <div className="headline-area rel z-2 py-25">
@@ -209,7 +209,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <Projects2 />
+      <Projects />
       {/* <Clients2 /> */}
       {/* <Testimonial /> */}
       <Contact2 />
