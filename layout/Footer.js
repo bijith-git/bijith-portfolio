@@ -96,7 +96,7 @@ const Footer1 = () => {
       <div className="footer-bottom pt-20 pb-5 rpt-25">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="copyright-text">
                 <p>
                   Copyright @{date},{" "}
@@ -106,7 +106,7 @@ const Footer1 = () => {
                   All Rights Reserved
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
