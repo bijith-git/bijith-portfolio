@@ -14,8 +14,8 @@ const About = () => {
                     Introduction of Myself
                   </span>
                   <h2>
-                    Designing <span>emotional</span> digital experiences that
-                    people love
+                    Elevating <span>ideas</span> into immersive digital
+                    experiences.
                   </h2>
                   {/* <h2>
                   I have no special <span>talents</span>.I am only passionately

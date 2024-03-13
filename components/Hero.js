@@ -2,8 +2,8 @@ import Link from "next/link";
 import Counter from "./Counter";
 
 const counterData = [
-  { id: 1, text: "Years Of Experience", value: "1", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "5", valueType: "plus" },
+  { id: 1, text: "Years Of Experience", value: "2", valueType: "" },
+  { id: 2, text: "Project Complete", value: "8", valueType: "" },
   { id: 3, text: "Client Satisfactions", value: "2", valueType: "" },
 ];
 
