@@ -160,7 +160,7 @@ const Projects = () => {
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-two4.jpg"
+                src="assets/images/projects/project-two6.jpg"
                 alt="Project"
               />
             </div>
