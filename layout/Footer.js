@@ -107,13 +107,13 @@ const Footer1 = () => {
                 </p>
               </div>
             </div> */}
-            <div className="col-lg-6 text-lg-end">
+            {/* <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <a href="https://github.com/bijith-git">Github</a>
+                  <a href="https://github.com/bijithpn">Github</a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/b_jith__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
+                  <a href="https://instagram.com/bijithpn">
                     Instagram
                   </a>
                 </li>
@@ -121,7 +121,7 @@ const Footer1 = () => {
                   <a href="https://www.linkedin.com/in/bijithpn/">LinkedIn</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           {/* Scroll Top Button */}
           <a href="#" className="scroll-top scroll-to-target d-inline-block">

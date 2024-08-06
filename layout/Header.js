@@ -119,7 +119,7 @@ const Header2 = ({ onePageMenu }) => {
 
   const downloadResume = () => {
     const pdfUrl =
-      "https://raw.githubusercontent.com/bijith-git/Bijith-portfolio/master/public/BIJITH_P_N.pdf";
+      "https://raw.githubusercontent.com/bijithpn/Bijith-portfolio/master/public/BIJITH_P_N.pdf";
     const aTag = document.createElement("a");
     aTag.href = pdfUrl;
     aTag.setAttribute("download", "Bijith P N Resume");

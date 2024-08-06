@@ -223,13 +223,13 @@ export const Contact2 = () => {
               <div className="social-flow">
                 <h4>Follow :</h4>
                 <div className="social-style-one">
-                  <a href="https://github.com/bijith-git">
+                  <a href="https://github.com/bijithpn">
                     <i className="fab fa-github" />
                   </a>
                   <a href="https://www.linkedin.com/in/bijithpn/">
                     <i className="fab fa-linkedin-in" />
                   </a>
-                  <a href="https://instagram.com/b_jith__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
+                  <a href="https://instagram.com/bijithpn">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
