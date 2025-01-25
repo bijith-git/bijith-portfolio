@@ -24,10 +24,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />
@@ -54,10 +54,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />
@@ -84,10 +84,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />
@@ -112,7 +112,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <Resume2 />
+      <Resume />
       <Services extraClass={"serves"} />
       <Skill />
       <div className="headline-area rel z-2 py-25">
@@ -123,10 +123,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />
@@ -153,10 +153,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />
@@ -183,10 +183,10 @@ export default function Home() {
                 Android
                 <i className="far fa-asterisk" />
               </span>
-              <span className="marquee-item">
+              {/* <span className="marquee-item">
                 IOS
                 <i className="far fa-asterisk" />
-              </span>
+              </span> */}
               <span className="marquee-item">
                 Web development
                 <i className="far fa-asterisk" />

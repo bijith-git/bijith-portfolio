@@ -24,14 +24,13 @@ const About = () => {
                 </div>
                 <div className="text pb-5">
                   Hi, I&apos;m a developer who loves using Flutter with one year
-                  of practice creating new solutions for Android, iOS, and web
+                  of practice creating new solutions for Android and web
                   systems. I am good at making apps that work on different
                   devices and look great while also running well. I am good at
-                  more than just Flutter. I also know Next.js and Node.js well,
-                  so I can make full solutions from start to finish. I have done
-                  many different tasks and completed them well. I promise to do
-                  my best, change when needed, and make sure things are easy for
-                  users in every project I work on.
+                  more than just Flutter.So I can make full solutions from start
+                  to finish. I have done many different tasks and completed them
+                  well. I promise to do my best, change when needed, and make
+                  sure things are easy for users in every project I work on.
                 </div>
                 <div className="row">
                   <div className="col-xl-3 col-sm-4 col-6">
@@ -49,7 +48,7 @@ const About = () => {
                   <div className="col-xl-3 col-sm-4 col-6">
                     <div className="about-info-item wow fadeInUp delay-0-4s">
                       <small>Working at</small>
-                      <b>Sigosoft</b>
+                      <b>Intersmart</b>
                     </div>
                   </div>
                 </div>
@@ -61,19 +60,19 @@ const About = () => {
                   <div className="col-lg-5 col-6 mx-5">
                     <div className="counter-item counter-text-wrap mb-25 wow fadeInUp delay-0-2s">
                       <Counter end={8} extraClass={""} />
-                      <span className="counter-title">project completed</span>
+                      <span className="counter-title">Projects</span>
                     </div>
                   </div>
                   <div className="col-lg-5 col-6">
                     <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
                       <Counter end={1.5} extraClass={"y"} />
-                      <span className="counter-title">Years Experience</span>
+                      <span className="counter-title">Experience</span>
                     </div>
                   </div>
                   <div className="col-lg-5 col-6">
                     <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
                       <Counter end={2} extraClass={"+"} />
-                      <span className="counter-title">Satisfied Clients</span>
+                      <span className="counter-title">Clients</span>
                     </div>
                   </div>
                 </div>

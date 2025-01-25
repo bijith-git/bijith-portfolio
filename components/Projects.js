@@ -90,7 +90,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* <div className="row align-items-center pb-25">
+        <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img
@@ -99,7 +99,7 @@ const Projects = () => {
               />
             </div>
           </div>
-          {/* <div className="col-xl-5 col-lg-6">
+          <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Flutter Project</span>
               <h2>
@@ -126,7 +126,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">

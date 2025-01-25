@@ -29,13 +29,13 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2022 - Present</span>
+                      <span className="years">2022 - 2024</span>
                       <h4>Flutter Developer</h4>
                       <span className="company">Sigosoft</span>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-5 col-md-6">
+                {/* <div className="col-xl-5 col-md-6">
                   <div className="resume-item wow fadeInUp delay-0-4s">
                     <div className="icon">
                       <i className="far fa-arrow-right" />
@@ -46,20 +46,20 @@ const Resume = () => {
                       <span className="company">Freelance</span>
                     </div>
                   </div>
-                </div>
-                {/* <div className="col-xl-5 col-md-6">
+                </div> */}
+                <div className="col-xl-5 col-md-6">
                   <div className="resume-item wow fadeInUp delay-0-2s">
                     <div className="icon">
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2018 - 2021</span>
-                      <h4>Senior Product Designer</h4>
-                      <span className="company">Webflow</span>
+                      <span className="years">2024 - Present</span>
+                      <h4>Flutter Developer</h4>
+                      <span className="company">Intersmart Solution</span>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-5 col-md-6">
+                {/* <div className="col-xl-5 col-md-6">
                   <div className="resume-item wow fadeInUp delay-0-4s">
                     <div className="icon">
                       <i className="far fa-arrow-right" />
